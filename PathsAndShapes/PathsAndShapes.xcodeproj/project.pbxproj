@@ -11,6 +11,12 @@
 		5A68F1A7284262B600A05152 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A68F1A6284262B600A05152 /* PathView.swift */; };
 		5A68F1A9284262B700A05152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A68F1A8284262B700A05152 /* Assets.xcassets */; };
 		5A68F1AC284262B700A05152 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A68F1AB284262B700A05152 /* Preview Assets.xcassets */; };
+		5A8A15B4284916420060B936 /* ArcsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A15B3284916420060B936 /* ArcsView.swift */; };
+		5A8A15B6284919C40060B936 /* Exercise1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A15B5284919C40060B936 /* Exercise1.swift */; };
+		5A8A15B828491B610060B936 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A15B728491B610060B936 /* ShapesView.swift */; };
+		5A8A15BA28491CC60060B936 /* StopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A15B928491CC60060B936 /* StopButton.swift */; };
+		5A8A15BC28491D5D0060B936 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A15BB28491D5D0060B936 /* ProgressView.swift */; };
+		5A8A15BE28491F080060B936 /* DonutChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A15BD28491F080060B936 /* DonutChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		5A68F1A6284262B600A05152 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		5A68F1A8284262B700A05152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A68F1AB284262B700A05152 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A8A15B3284916420060B936 /* ArcsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcsView.swift; sourceTree = "<group>"; };
+		5A8A15B5284919C40060B936 /* Exercise1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1.swift; sourceTree = "<group>"; };
+		5A8A15B728491B610060B936 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		5A8A15B928491CC60060B936 /* StopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopButton.swift; sourceTree = "<group>"; };
+		5A8A15BB28491D5D0060B936 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		5A8A15BD28491F080060B936 /* DonutChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,12 @@
 		5A68F1A3284262B600A05152 /* PathsAndShapes */ = {
 			isa = PBXGroup;
 			children = (
+				5A8A15BD28491F080060B936 /* DonutChart.swift */,
+				5A8A15BB28491D5D0060B936 /* ProgressView.swift */,
+				5A8A15B928491CC60060B936 /* StopButton.swift */,
+				5A8A15B728491B610060B936 /* ShapesView.swift */,
+				5A8A15B5284919C40060B936 /* Exercise1.swift */,
+				5A8A15B3284916420060B936 /* ArcsView.swift */,
 				5A68F1A6284262B600A05152 /* PathView.swift */,
 				5A68F1A8284262B700A05152 /* Assets.xcassets */,
 				5A68F1AA284262B700A05152 /* Preview Content */,
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A68F1A7284262B600A05152 /* PathView.swift in Sources */,
+				5A8A15B4284916420060B936 /* ArcsView.swift in Sources */,
 				5A68F1A5284262B600A05152 /* PathsAndShapesApp.swift in Sources */,
+				5A8A15B828491B610060B936 /* ShapesView.swift in Sources */,
+				5A8A15BC28491D5D0060B936 /* ProgressView.swift in Sources */,
+				5A8A15B6284919C40060B936 /* Exercise1.swift in Sources */,
+				5A8A15BA28491CC60060B936 /* StopButton.swift in Sources */,
+				5A8A15BE28491F080060B936 /* DonutChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
