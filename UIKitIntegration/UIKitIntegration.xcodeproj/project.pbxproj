@@ -7,28 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A34F336283B8196007BC911 /* WorkingWithScrollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34F335283B8196007BC911 /* WorkingWithScrollApp.swift */; };
-		5A34F338283B8196007BC911 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34F337283B8196007BC911 /* CardView.swift */; };
-		5A34F33A283B8197007BC911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A34F339283B8197007BC911 /* Assets.xcassets */; };
-		5A34F33D283B8197007BC911 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A34F33C283B8197007BC911 /* Preview Assets.xcassets */; };
-		5A68F0ED2842092E00A05152 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A68F0EC2842092E00A05152 /* ContentView.swift */; };
-		5A68F0EF2842184E00A05152 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A68F0EE2842184E00A05152 /* CarouselView.swift */; };
-		5AEF41C028525C8400114B16 /* AnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF41BF28525C8400114B16 /* AnimatedView.swift */; };
+		5A57092A2849F3C500B7B086 /* UIKitIntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5709292849F3C500B7B086 /* UIKitIntegrationApp.swift */; };
+		5A57092C2849F3C500B7B086 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A57092B2849F3C500B7B086 /* ContentView.swift */; };
+		5A57092E2849F3C600B7B086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A57092D2849F3C600B7B086 /* Assets.xcassets */; };
+		5A5709312849F3C600B7B086 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A5709302849F3C600B7B086 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A34F332283B8196007BC911 /* WorkingWithScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkingWithScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A34F335283B8196007BC911 /* WorkingWithScrollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithScrollApp.swift; sourceTree = "<group>"; };
-		5A34F337283B8196007BC911 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		5A34F339283B8197007BC911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5A34F33C283B8197007BC911 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5A68F0EC2842092E00A05152 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5A68F0EE2842184E00A05152 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
-		5AEF41BF28525C8400114B16 /* AnimatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedView.swift; sourceTree = "<group>"; };
+		5A5709262849F3C500B7B086 /* UIKitIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5709292849F3C500B7B086 /* UIKitIntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitIntegrationApp.swift; sourceTree = "<group>"; };
+		5A57092B2849F3C500B7B086 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A57092D2849F3C600B7B086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A5709302849F3C600B7B086 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5A34F32F283B8196007BC911 /* Frameworks */ = {
+		5A5709232849F3C500B7B086 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5A34F329283B8196007BC911 = {
+		5A57091D2849F3C500B7B086 = {
 			isa = PBXGroup;
 			children = (
-				5A34F334283B8196007BC911 /* WorkingWithScroll */,
-				5A34F333283B8196007BC911 /* Products */,
+				5A5709282849F3C500B7B086 /* UIKitIntegration */,
+				5A5709272849F3C500B7B086 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5A34F333283B8196007BC911 /* Products */ = {
+		5A5709272849F3C500B7B086 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A34F332283B8196007BC911 /* WorkingWithScroll.app */,
+				5A5709262849F3C500B7B086 /* UIKitIntegration.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5A34F334283B8196007BC911 /* WorkingWithScroll */ = {
+		5A5709282849F3C500B7B086 /* UIKitIntegration */ = {
 			isa = PBXGroup;
 			children = (
-				5A34F337283B8196007BC911 /* CardView.swift */,
-				5A68F0EE2842184E00A05152 /* CarouselView.swift */,
-				5A68F0EC2842092E00A05152 /* ContentView.swift */,
-				5AEF41BF28525C8400114B16 /* AnimatedView.swift */,
-				5A34F339283B8197007BC911 /* Assets.xcassets */,
-				5A34F33B283B8197007BC911 /* Preview Content */,
-				5A34F335283B8196007BC911 /* WorkingWithScrollApp.swift */,
+				5A57092B2849F3C500B7B086 /* ContentView.swift */,
+				5A57092D2849F3C600B7B086 /* Assets.xcassets */,
+				5A57092F2849F3C600B7B086 /* Preview Content */,
+				5A5709292849F3C500B7B086 /* UIKitIntegrationApp.swift */,
 			);
-			path = WorkingWithScroll;
+			path = UIKitIntegration;
 			sourceTree = "<group>";
 		};
-		5A34F33B283B8197007BC911 /* Preview Content */ = {
+		5A57092F2849F3C600B7B086 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5A34F33C283B8197007BC911 /* Preview Assets.xcassets */,
+				5A5709302849F3C600B7B086 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -79,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A34F331283B8196007BC911 /* WorkingWithScroll */ = {
+		5A5709252849F3C500B7B086 /* UIKitIntegration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A34F340283B8197007BC911 /* Build configuration list for PBXNativeTarget "WorkingWithScroll" */;
+			buildConfigurationList = 5A5709342849F3C600B7B086 /* Build configuration list for PBXNativeTarget "UIKitIntegration" */;
 			buildPhases = (
-				5A34F32E283B8196007BC911 /* Sources */,
-				5A34F32F283B8196007BC911 /* Frameworks */,
-				5A34F330283B8196007BC911 /* Resources */,
+				5A5709222849F3C500B7B086 /* Sources */,
+				5A5709232849F3C500B7B086 /* Frameworks */,
+				5A5709242849F3C500B7B086 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WorkingWithScroll;
-			productName = WorkingWithScroll;
-			productReference = 5A34F332283B8196007BC911 /* WorkingWithScroll.app */;
+			name = UIKitIntegration;
+			productName = UIKitIntegration;
+			productReference = 5A5709262849F3C500B7B086 /* UIKitIntegration.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5A34F32A283B8196007BC911 /* Project object */ = {
+		5A57091E2849F3C500B7B086 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					5A34F331283B8196007BC911 = {
-						CreatedOnToolsVersion = 13.4;
+					5A5709252849F3C500B7B086 = {
+						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 5A34F32D283B8196007BC911 /* Build configuration list for PBXProject "WorkingWithScroll" */;
+			buildConfigurationList = 5A5709212849F3C500B7B086 /* Build configuration list for PBXProject "UIKitIntegration" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,45 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 5A34F329283B8196007BC911;
-			productRefGroup = 5A34F333283B8196007BC911 /* Products */;
+			mainGroup = 5A57091D2849F3C500B7B086;
+			productRefGroup = 5A5709272849F3C500B7B086 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A34F331283B8196007BC911 /* WorkingWithScroll */,
+				5A5709252849F3C500B7B086 /* UIKitIntegration */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5A34F330283B8196007BC911 /* Resources */ = {
+		5A5709242849F3C500B7B086 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A34F33D283B8197007BC911 /* Preview Assets.xcassets in Resources */,
-				5A34F33A283B8197007BC911 /* Assets.xcassets in Resources */,
+				5A5709312849F3C600B7B086 /* Preview Assets.xcassets in Resources */,
+				5A57092E2849F3C600B7B086 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5A34F32E283B8196007BC911 /* Sources */ = {
+		5A5709222849F3C500B7B086 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A34F338283B8196007BC911 /* CardView.swift in Sources */,
-				5A34F336283B8196007BC911 /* WorkingWithScrollApp.swift in Sources */,
-				5AEF41C028525C8400114B16 /* AnimatedView.swift in Sources */,
-				5A68F0EF2842184E00A05152 /* CarouselView.swift in Sources */,
-				5A68F0ED2842092E00A05152 /* ContentView.swift in Sources */,
+				5A57092C2849F3C500B7B086 /* ContentView.swift in Sources */,
+				5A57092A2849F3C500B7B086 /* UIKitIntegrationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5A34F33E283B8197007BC911 /* Debug */ = {
+		5A5709322849F3C600B7B086 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		5A34F33F283B8197007BC911 /* Release */ = {
+		5A5709332849F3C600B7B086 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,14 +259,14 @@
 			};
 			name = Release;
 		};
-		5A34F341283B8197007BC911 /* Debug */ = {
+		5A5709352849F3C600B7B086 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WorkingWithScroll/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"UIKitIntegration/Preview Content\"";
 				DEVELOPMENT_TEAM = 8Z9CP2T4M4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -292,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.theyoogle.WorkingWithScroll;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theyoogle.UIKitIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,14 +288,14 @@
 			};
 			name = Debug;
 		};
-		5A34F342283B8197007BC911 /* Release */ = {
+		5A5709362849F3C600B7B086 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WorkingWithScroll/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"UIKitIntegration/Preview Content\"";
 				DEVELOPMENT_TEAM = 8Z9CP2T4M4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -321,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.theyoogle.WorkingWithScroll;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theyoogle.UIKitIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -332,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A34F32D283B8196007BC911 /* Build configuration list for PBXProject "WorkingWithScroll" */ = {
+		5A5709212849F3C500B7B086 /* Build configuration list for PBXProject "UIKitIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A34F33E283B8197007BC911 /* Debug */,
-				5A34F33F283B8197007BC911 /* Release */,
+				5A5709322849F3C600B7B086 /* Debug */,
+				5A5709332849F3C600B7B086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A34F340283B8197007BC911 /* Build configuration list for PBXNativeTarget "WorkingWithScroll" */ = {
+		5A5709342849F3C600B7B086 /* Build configuration list for PBXNativeTarget "UIKitIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A34F341283B8197007BC911 /* Debug */,
-				5A34F342283B8197007BC911 /* Release */,
+				5A5709352849F3C600B7B086 /* Debug */,
+				5A5709362849F3C600B7B086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5A34F32A283B8196007BC911 /* Project object */;
+	rootObject = 5A57091E2849F3C500B7B086 /* Project object */;
 }
