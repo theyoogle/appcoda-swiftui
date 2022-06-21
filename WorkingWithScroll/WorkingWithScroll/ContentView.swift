@@ -11,25 +11,25 @@ struct ContentView: View {
     var body: some View {
         ScrollView {
             
-                HStack {
-                    VStack(alignment: .leading) {
-                        Text("Monday, AUG 20".uppercased())
-                            .font(.caption)
-                            .foregroundColor(.secondary)
-                        Text("Your Reading")
-                                .font(.system(.largeTitle, design: .rounded))
-                                .fontWeight(.black)
-                    }
-                    Spacer()
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("Monday, AUG 20".uppercased())
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                    Text("Your Reading")
+                            .font(.system(.largeTitle, design: .rounded))
+                            .fontWeight(.black)
                 }
-                .padding([.top, .horizontal])
-                
-                VStack {
-                    cardViews[0]
-                    cardViews[1]
-                    cardViews[2]
-                    cardViews[3]
-                }
+                Spacer()
+            }
+            .padding([.top, .horizontal])
+            
+            VStack {
+                CardView(article: articles[0])
+                CardView(article: articles[1])
+                CardView(article: articles[2])
+                CardView(article: articles[3])
+            }
             
         }
     }

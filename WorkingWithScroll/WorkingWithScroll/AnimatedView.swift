@@ -19,19 +19,19 @@ struct AnimatedView: View {
                 .padding([.horizontal, .top])
             
             if !show {
-                cardViews[currentCardIndex]
+                CardView(article: articles[currentCardIndex])
                     .transition(.scaleDownAndUp)
             }
             
             if show {
-                cardViews[currentCardIndex]
+                CardView(article: articles[currentCardIndex])
                     .transition(.scaleDownAndUp)
             }
             
             Spacer()
         }
         .onTapGesture {
-            self.currentCardIndex = (self.currentCardIndex + 1) % cardViews.count
+            self.currentCardIndex = (self.currentCardIndex + 1) % articles.count
             
             withAnimation(.spring()) {
                 self.show.toggle()

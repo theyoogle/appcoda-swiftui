@@ -26,10 +26,10 @@ struct CarouselView: View {
                 
             HStack {
                 Group {
-                    cardViews[0]
-                    cardViews[1]
-                    cardViews[2]
-                    cardViews[3]
+                    CardView(article: articles[0])
+                    CardView(article: articles[1])
+                    CardView(article: articles[2])
+                    CardView(article: articles[3])
                 }
                 .frame(width: 300)
             }
