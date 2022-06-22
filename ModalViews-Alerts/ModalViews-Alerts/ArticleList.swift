@@ -22,6 +22,10 @@ struct ArticleList: View {
             .sheet(item: self.$selectedArticle) { article in
                 ArticleDetailView(article: article)
             }
+            // Shows full screen modal instead of sheet
+//            .fullScreenCover(item: self.$selectedArticle) { article in
+//                ArticleDetailView(article: article)
+//            }
             
             .navigationBarTitle("Your Reading")
         }
