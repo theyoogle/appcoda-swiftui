@@ -11,19 +11,19 @@ struct SettingsView: View {
     
     @Environment(\.presentationMode) var presentationMode
     
-    private var displayOrders = ["Alphabetical", "Show Favorite First", "Show Check-in First"]
-    
-    @State private var selectedOrder = 0
+    @State private var selectedOrder = DisplayOrderType.alphabetical
     @State private var showCheckinOnly = false
     @State private var maxPriceLevel = 5
+    
+    @EnvironmentObject var settingStore: SettingStore
     
     var body: some View {
         NavigationView {
             Form {
                 Section(header: Text("Sort Preference")) {
                     Picker(selection: $selectedOrder, label: Text("Display Order")) {
-                        ForEach(0..<displayOrders.count, id: \.self) { index in
-                            Text(displayOrders[index])
+                        ForEach(DisplayOrderType.allCases, id: \.self) { orderType in
+                            Text(orderType.text)
                         }
                     }
                 }
@@ -56,11 +56,19 @@ struct SettingsView: View {
                     Text("Cancel")
                 },
                 trailing: Button {
+                    self.settingStore.showCheckInOnly = self.showCheckinOnly
+                    self.settingStore.displayOrder = self.selectedOrder
+                    self.settingStore.maxPriceLevel = self.maxPriceLevel
                     presentationMode.wrappedValue.dismiss()
                 } label: {
                     Text("Save")
                 }
             )
+        }
+        .onAppear() {
+            self.showCheckinOnly = self.settingStore.showCheckInOnly
+            self.selectedOrder = self.settingStore.displayOrder
+            self.maxPriceLevel = self.settingStore.maxPriceLevel
         }
     }
 }
@@ -93,5 +101,6 @@ struct SettingsView: View {
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsView()
+            .environmentObject(SettingStore())
     }
 }

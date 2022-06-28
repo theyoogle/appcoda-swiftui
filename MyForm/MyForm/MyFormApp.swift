@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct MyFormApp: App {
+    
+    var settingStore = SettingStore()
+    
     var body: some Scene {
         WindowGroup {
             SettingsView()
+                .environmentObject(settingStore)
         }
     }
 }
