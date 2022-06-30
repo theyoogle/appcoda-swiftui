@@ -53,3 +53,22 @@ struct BasicImageRow: View {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+struct BasicImageRow_Previews: PreviewProvider {
+    static var previews: some View {
+        BasicImageRow(restaurant: Restaurant(name: "Cafe Deadend", type: "Coffee & Tea Shop", phone: "232-923423", image: "cafedeadend", priceLevel: 3, isFavorite: true, isCheckIn: true))
+            .previewLayout(.sizeThatFits)
+    }
+}
