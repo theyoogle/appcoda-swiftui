@@ -15,6 +15,7 @@
 		5A0645082865A9C300AA79A1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0645072865A9C300AA79A1 /* SettingsView.swift */; };
 		5A06450A2865D07A00AA79A1 /* DisplayOrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0645092865D07A00AA79A1 /* DisplayOrderType.swift */; };
 		5A06450C286616DB00AA79A1 /* SettingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A06450B286616DB00AA79A1 /* SettingStore.swift */; };
+		5ABA8653286D4947001EC96C /* BasicImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA8652286D4947001EC96C /* BasicImageRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5A0645072865A9C300AA79A1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		5A0645092865D07A00AA79A1 /* DisplayOrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayOrderType.swift; sourceTree = "<group>"; };
 		5A06450B286616DB00AA79A1 /* SettingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingStore.swift; sourceTree = "<group>"; };
+		5ABA8652286D4947001EC96C /* BasicImageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicImageRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				5A0644FD28655FD000AA79A1 /* Models */,
+				5ABA8652286D4947001EC96C /* BasicImageRow.swift */,
 				5A0644F1286558CD00AA79A1 /* ContentView.swift */,
 				5A0645072865A9C300AA79A1 /* SettingsView.swift */,
 				5A0644F3286558CE00AA79A1 /* Assets.xcassets */,
@@ -163,6 +166,7 @@
 				5A0644F0286558CD00AA79A1 /* MyFormApp.swift in Sources */,
 				5A06450C286616DB00AA79A1 /* SettingStore.swift in Sources */,
 				5A0644FF28655FDA00AA79A1 /* Restaurant.swift in Sources */,
+				5ABA8653286D4947001EC96C /* BasicImageRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

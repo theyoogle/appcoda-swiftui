@@ -14,7 +14,7 @@ struct MyFormApp: App {
     
     var body: some Scene {
         WindowGroup {
-            SettingsView()
+            ContentView()
                 .environmentObject(settingStore)
         }
     }
