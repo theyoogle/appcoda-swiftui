@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A39D6502879EF6C00C3D96A /* MultiGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39D64F2879EF6C00C3D96A /* MultiGesture.swift */; };
+		5A39D657287A8F6300C3D96A /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39D656287A8F6300C3D96A /* DragState.swift */; };
+		5A39D659287A905F00C3D96A /* MultiGesture2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39D658287A905F00C3D96A /* MultiGesture2.swift */; };
+		5A39D65B287A93F200C3D96A /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39D65A287A93F200C3D96A /* DraggableView.swift */; };
 		5AC4FA20286F575500703139 /* GestureHandlingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4FA1F286F575500703139 /* GestureHandlingApp.swift */; };
 		5AC4FA22286F575500703139 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4FA21286F575500703139 /* ContentView.swift */; };
 		5AC4FA24286F575600703139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC4FA23286F575600703139 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A39D64F2879EF6C00C3D96A /* MultiGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiGesture.swift; sourceTree = "<group>"; };
+		5A39D656287A8F6300C3D96A /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
+		5A39D658287A905F00C3D96A /* MultiGesture2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiGesture2.swift; sourceTree = "<group>"; };
+		5A39D65A287A93F200C3D96A /* DraggableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
 		5AC4FA1C286F575500703139 /* GestureHandling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureHandling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC4FA1F286F575500703139 /* GestureHandlingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureHandlingApp.swift; sourceTree = "<group>"; };
 		5AC4FA21286F575500703139 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				5AC4FA21286F575500703139 /* ContentView.swift */,
+				5A39D64F2879EF6C00C3D96A /* MultiGesture.swift */,
+				5A39D658287A905F00C3D96A /* MultiGesture2.swift */,
+				5A39D656287A8F6300C3D96A /* DragState.swift */,
+				5A39D65A287A93F200C3D96A /* DraggableView.swift */,
 				5AC4FA23286F575600703139 /* Assets.xcassets */,
 				5AC4FA25286F575600703139 /* Preview Content */,
 				5AC4FA1F286F575500703139 /* GestureHandlingApp.swift */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A39D65B287A93F200C3D96A /* DraggableView.swift in Sources */,
+				5A39D659287A905F00C3D96A /* MultiGesture2.swift in Sources */,
 				5AC4FA22286F575500703139 /* ContentView.swift in Sources */,
+				5A39D657287A8F6300C3D96A /* DragState.swift in Sources */,
 				5AC4FA20286F575500703139 /* GestureHandlingApp.swift in Sources */,
+				5A39D6502879EF6C00C3D96A /* MultiGesture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
